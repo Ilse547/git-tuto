@@ -1,0 +1,48 @@
+GIT COMMANDS TO KNWO
+SE_01
+fork
+
+git init:
+sets up a hidden folder structure for the project you are in
+
+git add:
+adds to stage
+"git add [PATH]" specific file
+"git add ." all the files of the repository
+
+git commit:
+Save whatever is staged right now
+"git commit -m [MESSAGE]" commits with message
+"git commit -am [MESSAGE]" commits everything while staging with message
+
+
+You first have to select what you want to save "git add ." and then "git commit -m [MESSAGE]" to commit the changes
+
+git log:
+shows the history
+
+git reset:
+resets the stages
+
+branching means creating parallel vesions of codes so multiple ppl can work at the same time
+git branch:
+view branches
+
+git branch [BRANCH_NAME]:(Needs at least one commit
+create a branch
+
+git checkout [NAME]:
+change to branch [NAME]
+
+git merge [BRANCH NAME]
+merges the changed to the branch i am currently on
+
+git merge --abort
+stop the merge
+
+git reset --hard
+REMOVES CHANGES THAT ARE NOT COMMITED
+
+
+GO DEEPER
+git.scm.com/docs
